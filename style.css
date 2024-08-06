@@ -1,0 +1,82 @@
+
+.thumbnail {
+    cursor: pointer;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 0px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.table_lines{
+    border-collapse: collapse;
+}
+.qr_code_center{
+    text-align: center;
+    
+}
+@media (max-width: 767px) {
+    /* CSS styles for mobile view */
+
+form .row .col-6 {
+    width:100%
+    
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+}
+
+.row .thumbnail-1, .thumbnail-2, .thumbnail-3, .thumbnail-4, .thumbnail-5, .thumbnail-6{
+    display: none;
+}
+
+
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS styles for tablet view */
+    .card {
+        width: 90%;
+        margin: auto;
+    }
+    
+  }
+  
+.green-border {
+        border: 2px solid green;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio for fluid images */
+}
+
+.green-border {
+    border: 2px solid green;
+}
+
+.thumbnail img {
+    width: 90px; /* Set a fixed width */
+    height: 90px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the set dimensions */
+}
+
+#mainImage {
+    width: 100%; /* Full width of its container */
+    max-width: 600px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  
